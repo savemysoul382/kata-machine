@@ -43,6 +43,7 @@ export default class Queue<T> {
         if (this.length === 0) {
             this.tail = undefined;
         }
+
         return head.value;
 
     }
