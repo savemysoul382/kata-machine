@@ -15,6 +15,17 @@ function walk(curr: BinaryNode<number> | null | undefined, path: number[]): numb
     return path;
 }
 
+//        A
+//       / \
+//      /   \
+//     B-----C
+//    / \
+//   D---E
+
+// In-order
+// D, B, E, A, C
+// между walk(left) и walk(right)
+
 export default function in_order_search(head: BinaryNode<number>): number[] {
     return walk(head, []);
 }
