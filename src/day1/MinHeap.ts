@@ -1,8 +1,7 @@
+// хранится в виде массива так [2, 3, 5, 7, 8, 6]
 export default class MinHeap {
     public length: number;
     private data: number[];
-
-
 
     constructor() {
         this.length = 0
