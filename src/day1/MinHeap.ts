@@ -36,7 +36,7 @@ export default class MinHeap {
         const lIdx = this.leftChild(idx);
         const rIdx = this.rightChild(idx);
 
-        // lIdx потому что мы всегда заполняем слева на право
+        // lIdx потому что мы всегда заполняем слева направо
         if (idx >= this.length || lIdx >= this.length) {
             return;
         }

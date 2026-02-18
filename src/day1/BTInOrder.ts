@@ -23,7 +23,7 @@ function walk(curr: BinaryNode<number> | null | undefined, path: number[]): numb
 //   D---E
 
 // In-order
-// D, B, E, A, C
+// D, B, E, A, C (in numbers -> 1,2,3,4,5,6)
 // между walk(left) и walk(right)
 
 export default function in_order_search(head: BinaryNode<number>): number[] {
